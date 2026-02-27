@@ -1,0 +1,16 @@
+public class END1 {
+
+    public static void main(String[] args) {
+        END p1;
+        END p2;
+        END p3;
+
+        p1 = new END("nid", "kubola", 25);
+        p2 = new END("john", "peterson");
+        p3 = new END("bob", "smith", 18);
+
+        p1.show();
+        p2.show();
+        p3.show();
+    }
+}
