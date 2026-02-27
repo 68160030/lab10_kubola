@@ -1,0 +1,27 @@
+public class Circle {
+
+    int radius;
+
+    Circle() {
+        radius = 1;
+    }
+
+    Circle(int r) {
+        radius = r;
+    }
+
+    double area() {
+        return 3.1416 * radius * radius;
+    }
+
+    double circumference() {
+        return 2 * 3.1416 * radius;
+    }
+
+    void display() {
+        System.out.println("Circle:");
+        System.out.println("Radius: " + radius);
+        System.out.printf("Area = %.2f\n", area());
+        System.out.printf("Circumference = %.2f\n", circumference());
+    }
+}
