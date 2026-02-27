@@ -1,0 +1,16 @@
+public class ASD1 {
+
+    public static void main(String[] args) {
+        ASD p1;
+        ASD p2;
+        ASD p3;
+
+        p1 = new ASD("nid", "kubola", 25);
+        p2 = new ASD("john", "peterson", 37);
+        p3 = new ASD("bob", "smith", 18);
+
+        p1.show();
+        p2.show();
+        p3.show();
+    }
+}
