@@ -1,0 +1,16 @@
+public class START1 {
+
+    public static void main(String[] args) {
+        START p1;
+        START p2;
+        START p3;
+
+        p1 = new START("nid", "kubola", 25);
+        p2 = new START("john", "peterson");
+        p3 = new START("bob", "smith", 18);
+
+        p1.show();
+        p2.show();
+        p3.show();
+    }
+}
