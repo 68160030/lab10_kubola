@@ -1,0 +1,19 @@
+public class START {
+    String firstname;
+    String lastname;
+    int age;
+
+    public START(String fn, String ln) {
+        firstname = fn;
+        lastname = ln;
+    }
+
+    public START(String fn, String ln, int a) {
+
+        age = a;
+    }
+
+    public void show() {
+        System.out.println("Name : " + firstname + " " + lastname + " Age : " + age);
+    }
+}
