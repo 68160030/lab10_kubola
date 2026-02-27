@@ -1,0 +1,10 @@
+public class ORE {
+    public static void main(String[] args) {
+
+        ORE1 r1 = new ORE1(3, 6);
+        ORE2 t1 = new ORE2(2, 5);
+
+        t1.display();
+        r1.display();
+    }
+}
